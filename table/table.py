@@ -6,13 +6,9 @@ def generate_table(number, limit):
 
 
 def print_table(number, limit):
+    print("-- Welcome to the multiplication table generator --")
+    print(f"Printing table of {number} upto {limit}:")
     table = generate_table(number, limit)
     for line in table:
         print(line)
 
-
-# Example usage:
-if __name__ == "__main__":
-    num = 5
-    lim = 10
-    print_table(num, lim)
