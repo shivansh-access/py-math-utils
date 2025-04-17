@@ -10,4 +10,4 @@ if __name__ == "__main__":
     area_and_perimter_of_square(5)
     area_and_perimter_of_rectangle(5, 10)
     area_and_circumference_of_circle(5.35)
-    
+    area_and_perimeter_of_triangle(5, 10, 7, 8)
