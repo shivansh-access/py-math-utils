@@ -6,7 +6,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
 
 
-from shapes.area_and_perimeter import (
+from geometry_utils.area_and_perimeter import (
     area_of_a_square,
     perimeter_of_a_square,
     area_of_a_rectangle,

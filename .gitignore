@@ -1,2 +1,3 @@
-shapes/__pycache__/area_and_perimeter.cpython-39.pyc
-table/__pycache__/table.cpython-39.pyc
+geometry_utils/__pycache__
+math_utils/__pycache__
+.vscode

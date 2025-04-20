@@ -1,5 +1,5 @@
-from table.table import print_table
-from shapes.area_and_perimeter import *
+from math_utils.table import print_table
+from geometry_utils.area_and_perimeter import *
 
 
 if __name__ == "__main__":
