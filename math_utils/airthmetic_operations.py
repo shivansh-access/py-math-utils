@@ -16,6 +16,4 @@ def printcommaseperatednumbers(num1, num2, num3):
 
 #print_name_and_age("Shivansh", 10)
 #print_name_and_age("Shubhi", 11)
-printcommaseperatednumbers(4 , 5 , 6)
-
-
+#printcommaseperatednumbers(4 , 5 , 6)

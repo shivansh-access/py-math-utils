@@ -2,4 +2,5 @@ geometry_utils/__pycache__
 math_utils/__pycache__
 tests/geometry_utils/__pycache__
 tests/math_utils/__pycache__
+__pycache__
 .vscode
