@@ -12,5 +12,3 @@ def print_table(number, limit):
     for line in table:
         print(line)
 
-
-print_table(5, 10)
