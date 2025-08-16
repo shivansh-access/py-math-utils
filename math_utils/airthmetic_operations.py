@@ -1,19 +1,27 @@
 def sum_of_two_numbers(num1, num2):
-    # print("Printing the sum of of numbers " + str(num1) + " and " + str(num2))
     print(f"Returning the sum of of numbers {num1} and {num2}")
     return num1 + num2
 
 
-def print_name_and_age(name, age):
-    print("My name is " + name + ". My age is " + str(age) + ".")
-    print(f"My name is {name}. My age is {age}")
-
-
-def printcommaseperatednumbers(num1, num2, num3):
+def print_comma_seperated_numbers(num1, num2, num3):
     print(f"num1, num2, num3")
     
+
+def finding_the_biggest_number_of_two(num1, num2):
+    if num1 >= num2:
+     return num1
+    else:
+      return num2    
     
 
-#print_name_and_age("Shivansh", 10)
-#print_name_and_age("Shubhi", 11)
-#printcommaseperatednumbers(4 , 5 , 6)
+def finding_the_biggest_number_of_three(num1, num2, num3):
+   if num1 >= num2:
+       if num1 >= num3:
+           return num1
+       else:
+           return num3
+   elif num2 >= num3:
+       return num2
+   else:
+       return num3     
+

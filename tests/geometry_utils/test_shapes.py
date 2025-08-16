@@ -31,6 +31,15 @@ class TestShapesFunctions(unittest.TestCase):
 
         expected5  = "Invalid"
         result5 = determine_type_of_triangle(180, 0, 0)
+        self.assertEqual(result5, expected5) 
+
+        expected6 = "Invalid"
+        result6 = determine_type_of_triangle(90, 90, 90)
+        self.assertEqual(result6, expected6) 
+
+        expected7 = "Invalid"
+        result7 = determine_type_of_triangle(-10, -20, 210)
+        self.assertEqual(result7, expected7) 
 
 
 

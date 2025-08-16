@@ -1,5 +1,6 @@
 geometry_utils/__pycache__
 math_utils/__pycache__
+math_utils/revision.py
 tests/geometry_utils/__pycache__
 tests/math_utils/__pycache__
 __pycache__
