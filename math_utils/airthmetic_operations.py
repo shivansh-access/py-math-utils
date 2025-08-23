@@ -23,5 +23,22 @@ def finding_the_biggest_number_of_three(num1, num2, num3):
    elif num2 >= num3:
        return num2
    else:
-       return num3     
+       return num3
+   
 
+def finding_the_biggest_number(list_of_nums):
+    biggest_num = list_of_nums[0]
+    for i in range(0, len(list_of_nums)):
+        n = list_of_nums[i]
+        if n > biggest_num:
+            biggest_num = n
+    return biggest_num
+
+
+def find_sum_of_numbers_in_an_array(list_of_nums):
+    sum = 0
+    for i in range(0, len(list_of_nums)):
+        n = list_of_nums[i]
+        sum = sum + n
+    return sum
+    
